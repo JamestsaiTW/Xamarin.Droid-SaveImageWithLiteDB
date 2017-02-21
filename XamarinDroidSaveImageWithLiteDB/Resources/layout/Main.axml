@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <Button
+        android:text="Load Image From Url And Save to LiteDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SaveImageFromUrlToLiteDbButton" />
+    <Button
+        android:text="Load Image From LiteDB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LoadImageFromLiteDbButton" />
+    <Button
+        android:text="Save Image From LiteDB To Local (By Id)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SaveImageFromLiteDbToLocalByIdButton" />
+    <Button
+        android:text="Save Image From LiteDB To Local (By Id  And Known File Name)"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/SaveImageFromLiteDbToLocalByIdAndKnownFileNameButton" />
+    <ImageView
+        android:src="@drawable/icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/MainImageView" />
+</LinearLayout>
